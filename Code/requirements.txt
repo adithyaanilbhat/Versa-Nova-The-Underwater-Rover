@@ -1,0 +1,7 @@
+tensorflow
+numpy
+matplotlib
+pillow
+opencv-python
+pandas
+openpyxl
