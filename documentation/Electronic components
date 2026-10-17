@@ -1,0 +1,21 @@
+# Electronic Components
+
+The electronic system of **Versa Nova: The Underwater Rover** integrates onboard processing, vehicle control, underwater imaging, propulsion, communication, and power distribution.
+
+| No. | Electronic Component                    | Function                                                             |
+| --: | --------------------------------------- | -------------------------------------------------------------------- |
+|   1 | Raspberry Pi 5 (8 GB RAM)               | Onboard processing and CNN-based crack detection                     |
+|   2 | Pixhawk 2.4.8 Flight Controller         | Underwater rover motion control                                      |
+|   3 | RadioMaster Pocket Controller           | Operator control of the rover                                        |
+|   4 | USB Camera                              | Captures underwater images for visual monitoring and crack detection |
+|   5 | ApisQueen U2 Mini Thrusters (8)         | Provides propulsion and directional movement                         |
+|   6 | Buck Converters                         | Regulates voltage for electronic components                          |
+|   7 | LiPo Batteries (2800 mAh and 10000 mAh) | Supplies power to the system                                         |
+|   8 | Ethernet Cable                          | Provides communication between the rover and the operator station    |
+|   9 | Peristaltic Pumps                       | Controls water movement in and out of the buoyancy tanks             |
+
+## System Overview
+
+The Raspberry Pi 5 handles image processing and CNN-based crack detection using images captured by the USB camera. The Pixhawk 2.4.8 manages vehicle motion control, while the eight thrusters provide propulsion. Buck converters support power distribution, and Ethernet communication connects the rover to the operator station.
+
+The peristaltic pumps support depth adjustment through the rover's buoyancy-control system.
