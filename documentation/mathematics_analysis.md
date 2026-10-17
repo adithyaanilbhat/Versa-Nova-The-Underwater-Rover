@@ -67,11 +67,12 @@ $$
 
 Where:
 
-*  F_{\text{net}} = Net force acting on the rover
-*  F_{\text{thrust}} = Effective propulsion force
-* F_{\text{drag}} = Hydrodynamic drag force
+* `F_net` = Net force acting on the rover
+* `F_thrust` = Effective propulsion force
+* `F_drag` = Hydrodynamic drag force
 * `m` = Mass of the rover
 * `a` = Acceleration
+
 
 Actual performance depends on water resistance, thruster efficiency, and operating conditions.
 
