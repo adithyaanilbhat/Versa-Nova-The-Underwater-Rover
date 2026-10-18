@@ -1,4 +1,4 @@
-# Documentation — Versa Nova: The Underwater Rover
+# Documentation - Versa Nova: The Underwater Rover
 
 This directory contains the technical documentation for **Versa Nova: The Underwater Rover**, an underwater robotic system developed for visual inspection of submerged structures, such as dam walls and bridge pillars. The project integrates an operator-controlled propulsion system, underwater imaging, and CNN-based crack classification.
 
